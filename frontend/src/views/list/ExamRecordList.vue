@@ -21,6 +21,7 @@
             <div class="list-content-item">
               <span>开始时间</span>
               <p>{{ item.examRecord.examJoinDate }}</p>
+<!--              <p>2023-3-10 08:35:24</p>-->
             </div>
             <div class="list-content-item">
               <span>分数</span>

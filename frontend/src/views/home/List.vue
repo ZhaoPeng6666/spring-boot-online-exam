@@ -10,7 +10,6 @@
 
 <script>
 import ListItem from './ListItem'
-
 export default {
   name: 'List',
   components: {
@@ -34,5 +33,4 @@ export default {
 </script>
 
 <style scoped>
-
 </style>

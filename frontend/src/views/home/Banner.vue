@@ -8,14 +8,15 @@
       <p style="opacity: 1; transform: translate(0px, 0px);">
         <span>基于SpringBoot+Vue技术栈开发的在线考试系统</span>
       </p>
-      <div class="button-wrapper">
-        <a href="https://github.com/19920625lsg">
-          <a-button type="primary">预览</a-button>
-        </a>
-        <a @click="$router.push({ name: 'docs' })">
-          <a-button style="margin: 0 16px;">开始使用</a-button>
-        </a>
-      </div>
+<!--      <div class="button-wrapper">-->
+<!--        <a href="https://github.com/19920625lsg">-->
+<!--          <a-button type="primary">预览</a-button>-->
+<!--        </a>-->
+<!--        <a @click="$router.push({ name: 'docs' })">-->
+<!--          <a-button style="margin: 0 16px;">开始使用</a-button>-->
+<!--        </a>-->
+<!--      </div>-->
+      <img src="https://i5.hoopchina.com.cn/hupuapp/bbs/199550402400073/thread_199550402400073_20190723101150_s_1350770_w_480_h_270_39827.gif" alt="">
     </div>
     <div class="banner-image-wrapper" style="opacity: 1;">
       <a-carousel arrows autoplay>

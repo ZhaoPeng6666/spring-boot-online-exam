@@ -93,12 +93,21 @@ module.exports = {
   devServer: {
     // development server port 8000
     port: 8000,
-    proxy: 'http://localhost:9527'
+    proxy: {
+      // '/hupuapp': {
+      //   target: 'https://i5.hoopchina.com.cn',
+      //   pathRewrite: { '^/hupuapp': '' }
+      // },
+      '': {
+        target: 'http://localhost:9527'
+      }
+    }
+    // proxy: 'http://localhost:9527'
   },
 
   // disable source map in production
   productionSourceMap: false,
-  lintOnSave: undefined,
+  lintOnSave: false,
   // babel-loader no-ignore node_modules/*
   transpileDependencies: []
 }
